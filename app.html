@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Save your Ice-cream!</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="location">
+            <p>Mumbai</p>
+        </div>
+        <div id="temp">
+            <p><span id="temp-value">40</span><span id="temp-unit">&#176C</span></p>
+        </div>
+        <div id="amount">
+            <input type="number" id="wajan" value="1"> grams
+        </div>
+        <div id="type">
+            <div id="byRecipe">
+                <select id="styl" value="n">
+                    <option value="Hard">Hard</option>
+                    <option value="French">French</option>
+                    <option value="Light">Light</option>
+                    <option value="Organic">Organic</option>
+                    <option value="No Sugar">No Sugar</option>
+                    <option value="Soft">Soft</option>
+                    <option value="Lactose-Free">Lactose-Free</option>
+                </select>
+            </div>
+            <div id="byShape">
+                <select id="geometry" value="m">
+                    <option value="Cones">Cones</option>
+                    <option value="Sticks/Popsicles">Sticks/Popsicles</option>
+                    <option value="Ice Cream Cakes">Ice Cream Cakes</option>
+                    <option value="Ice Cream Buckets">Ice Cream Buckets</option>
+                    <option value="Ice Cream Floats">Ice Cream Floats</option>
+                    <option value="Sundae">Sundae</option>
+                </select>
+            </div>
+        </div>
+        <div id="flavour">
+            <select id="yum" value="l">
+                <option value="Raspberry">Raspberry</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Coffee">Coffee</option>
+                <option value="Pistachio">Pistachio</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Caramel">Caramel</option>
+                <option value="Kulfi">Kulfi</option>
+            </select>
+        </div>
+        <div id="timeRem">
+            <p id="waqt">2</p>min
+        </div>
+        <div id="samapt">
+            <button type="button" value="Submit" onclick="Samay()">Submit</button>
+        </div>
+        <script src="app.js"></script>
+    </div>
+</body>
+</html>
